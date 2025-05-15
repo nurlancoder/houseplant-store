@@ -1,5 +1,4 @@
 export const plants = [
-  // Otaq Bitkiləri
   {
     id: 1,
     name: "Monstera Deliciosa",
@@ -17,7 +16,6 @@ export const plants = [
     inCart: false,
   },
   
-  // Kaktuslar
   {
     id: 3,
     name: "Bunny Ears Cactus",
@@ -35,7 +33,6 @@ export const plants = [
     inCart: false,
   },
   
-  // Sukkulent Bitkilər
   {
     id: 5,
     name: "Echeveria Elegans",
