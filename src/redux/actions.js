@@ -1,6 +1,5 @@
 import * as actionTypes from './actionTypes';
 
-// Səbətə əlavə etmək üçün action
 export const addToCart = (plant) => {
   return {
     type: actionTypes.ADD_TO_CART,
@@ -8,7 +7,6 @@ export const addToCart = (plant) => {
   };
 };
 
-// Səbətdəki bitkinin miqdarını artırmaq üçün action
 export const increaseQuantity = (plantId) => {
   return {
     type: actionTypes.INCREASE_QUANTITY,
@@ -16,7 +14,6 @@ export const increaseQuantity = (plantId) => {
   };
 };
 
-// Səbətdəki bitkinin miqdarını azaltmaq üçün action
 export const decreaseQuantity = (plantId) => {
   return {
     type: actionTypes.DECREASE_QUANTITY,
@@ -24,7 +21,6 @@ export const decreaseQuantity = (plantId) => {
   };
 };
 
-// Bitkini səbətdən silmək üçün action
 export const removeFromCart = (plantId) => {
   return {
     type: actionTypes.REMOVE_FROM_CART,
