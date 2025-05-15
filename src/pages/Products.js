@@ -4,7 +4,6 @@ import { plants } from '../data';
 import './Products.css';
 
 const Products = () => {
-  // Bitkiləri kategoriyalara əsasən qruplaşdırırıq
   const categories = [...new Set(plants.map(plant => plant.category))];
   
   return (
